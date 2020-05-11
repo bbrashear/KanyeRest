@@ -17,6 +17,7 @@ namespace KanyeRestConsole
                 Console.WriteLine();
                 Console.WriteLine($"Ron: {ServiceCalls.GetRonQuote(client, ronURL)}");
                 Thread.Sleep(2000);
+                Console.WriteLine();
             }
         }
     }
